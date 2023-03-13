@@ -1,0 +1,28 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+
+# First rewrite to HTTPS:
+
+# Don't put www. here. If it is already there it will be included, if not
+
+# the subsequent rule will catch it.
+
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Now, rewrite any request to the wrong domain to use www.
+
+# [NC] is a case-insensitive match
+RewriteCond %{REQUEST_URI} !(/$|\.)
+RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^(blog/+)$ blog.php
+
+RewriteRule ^(blog+)/([a-z0-9-]+)/$ blogdetail.php
+
+RewriteCond %{REQUEST_METHOD} POST
+RewriteRule ^ - [L]

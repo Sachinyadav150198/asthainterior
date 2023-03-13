@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+  }
+  
+  .body {
+  
+    scroll-behavior: smooth;
+  
+  }
+  
+  
+  /*  NAVBAR SECTION*/
+  
+  .menu-section li a{
+   font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+  }
+  
+  
+  
+  #butts button {
+    font-family: 'Montserrat';
+    text-transform: capitalize;
+  
+    background-color: #490A0A;
+  
+    height: 40px;
+  
+    color: white;
+  
+    margin-top: 17px;
+    outline: none;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 600;
+  
+  }
+  
+
+  #pri{
+    background-image: url("../images/Aastha-ptf-banner.jpg");
+    width: 100%;
+    height: 200px;
+    background-image: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  #pri h3{
+    color:white;
+  
+  }
+  #pri2 p{
+    font-size: 15px;
+  }
+   #flush-headingOne button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingTwo button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingThree button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingFour button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingFive button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingSix button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingSeven button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingEight button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingNine button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingTen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingEleven button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingTwelve button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingThirteen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingFourteen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingFifteen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingSixteen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingSeventeen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingEighteen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+  #flush-headingNineteen button{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .accordion-button:focus {
+
+    z-index: 3;
+  
+    border-color: none;
+  
+    outline: 0;
+  
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+    color:black;
+
+  
+  }
+
+
+
+
+
+
+
+
+  /*FOOTER SECTION  */
+
+#footer {
+
+    width: 100%;
+  
+    background: #141D28;
+  
+    height: 480px;
+  
+  }
+  
+  
+  
+  #footer p {
+  
+    font-family: 'Montserrat';
+  
+    font-style: normal;
+  
+    font-weight: 400;
+  
+    font-size: 13px;
+  
+    line-height: 24px;
+  
+    letter-spacing: 0.3px;
+  
+    color: #FFFFFF;
+  
+  }
+  
+  
+  #footer h4 {
+  
+    font-family: 'Montserrat';
+    font-weight: 700;
+  
+    font-size: 14px;
+  
+    line-height: 24px;
+  
+    letter-spacing: 0.3px;
+  
+    color: #92989F;
+  
+  }
+  
+  
+  
+  #para-footer p {
+    font-family: 'Montserrat';
+  
+    font-weight: 500;
+  
+    font-size: 12px;
+  
+    line-height: 16px;
+  
+    text-align: center;
+  
+    letter-spacing: 0.257143px;
+  
+    color: #92989F;
+  
+  }
+  
+  
+  #footer a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+  @media (min-width: 320px) and (max-width: 680px) {
+  
+#butts{
+  display: none;
+}
+
+
+#footer {
+
+  width: 100%;
+
+  background: #141D28;
+
+  height: fit-content;
+
+
+
+}
+
+
+
+
+
+  }
+  
